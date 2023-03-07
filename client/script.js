@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://chatgpt-guia.vercel.app', {
+    const response = await fetch('https://chatgpt-guia.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
